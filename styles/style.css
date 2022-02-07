@@ -1,0 +1,55 @@
+/* Global selectors */
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+img {
+    max-width: 89%;
+    display: block;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+p{
+    text-align: center;
+}
+
+/* Class selectors */
+.attribution {
+    position: absolute;
+    bottom: 0;
+}
+
+.qr-element {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    width: fit-content;
+    max-width: 340px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.header {
+    color: hsl(218, 44%, 22%);
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 10px 0 10px;
+}
+
+.paragraph {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 15px;
+    margin: 20px 45px 0 45px;
+    padding-bottom: 45px;
+}
