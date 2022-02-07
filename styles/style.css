@@ -26,19 +26,6 @@ p{
     bottom: 0;
 }
 
-.qr-element {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-color: hsl(0, 0%, 100%);
-    width: fit-content;
-    max-width: 340px;
-    margin: auto;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px lightgray;
-}
-
 .header {
     color: hsl(218, 44%, 22%);
     font-size: 25px;
@@ -52,4 +39,17 @@ p{
     font-size: 15px;
     margin: 20px 45px 0 45px;
     padding-bottom: 45px;
+}
+
+.qr-element {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    width: fit-content;
+    max-width: 340px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px lightgray;
 }
