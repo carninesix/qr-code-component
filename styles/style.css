@@ -16,9 +16,7 @@ img {
     object-fit: contain;
 }
 
-p{
-    text-align: center;
-}
+
 
 /* Class selectors */
 .attribution {
@@ -27,6 +25,7 @@ p{
 }
 
 .header {
+    text-align: center;
     color: hsl(218, 44%, 22%);
     font-size: 25px;
     font-weight: 700;
@@ -34,6 +33,7 @@ p{
 }
 
 .paragraph {
+    text-align: center;
     color: hsl(220, 15%, 55%);
     font-weight: 400;
     font-size: 15px;
